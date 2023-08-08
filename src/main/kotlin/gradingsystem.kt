@@ -3,7 +3,7 @@ fun main(){
 }
 
 fun marks (){
-    var grade = 123
+    val grade = 123
 
     if(grade>=90 && grade<=100){
         println("grade A")
