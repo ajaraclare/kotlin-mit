@@ -1,32 +1,28 @@
 fun main(){
-
-   results()
-
+    marks()
 }
 
-fun results(){
+fun marks (){
+    var grade = 123
 
-    val marks = -6
-
-    if (marks<25){
-        println("Grade = D")
+    if(grade>=90 && grade<=100){
+        println("grade A")
     }
-    else if(marks<50){
-        println("Grade = C")
+    else if(grade>=70 && grade<=89){
+        println("grade B")
     }
-    else if (marks<75){
-        println("Grade = B")
+    else if(grade>=50 && grade<=69){
+        println("grade C")
     }
-    else if (marks<101){
-        println("Grade = A")
+    else if(grade>=30 && grade<=49){
+        println("grade D")
     }
-    else if (marks>100){
-        println("Invalid Input")
+    else if(grade>=0 && grade<=29){
+        println("grade E")
     }
     else{
-        println("Invalid Input")
+        println("Invalid")
     }
-
 
 }
 
