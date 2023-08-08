@@ -1,5 +1,6 @@
 fun main(){
     addition()
+    sub()
 
 }
 
@@ -18,7 +19,7 @@ fun sub(){
 
     var diff = maths-english
 
-    println(diff)
+    println("The difference of my marks is ${maths-english}")
 }
 
 fun div(){

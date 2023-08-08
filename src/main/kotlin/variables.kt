@@ -12,7 +12,7 @@ fun variable(){
     var home = "home"
     var price = 200
 
-    println("I'm coming from " + home +"with "+ price + "shillings this beautiful evening on "+aug)
+    println("I am going $home with $price shillings this $aug morning ")
 }
 
 fun value(){
